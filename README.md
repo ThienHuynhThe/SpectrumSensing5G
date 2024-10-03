@@ -2,7 +2,7 @@
 The evolution towards fifth-generation wireless (5G) and beyond has significantly increased the demand for efficient spectrum management and utilization. Conventional spectrum sensing methods have struggled to accurately characterize spectrum occupancy, particularly when different radio signals share the same frequency band.
 To address this challenge, we propose a novel spectrum sensing method by exploiting short-time Fourier transform and neural networks for learning spectrogram patterns. Leveraging encoder-decoder architectures, we design a semantic segmentation network, namely SRNet, to precisely detect multiple signals within a spectrum by identifying spectral content based on the frequency and time occupied by the signals. By incorporating an attention mechanism and multi-scale feature extraction, SRNet effectively learns spectral features and improves segmentation efficiency. Extensive simulations demonstrate SRNet's robustness and effectiveness in identifying 5G New Radio and LTE signals, under challenging channel and radio frequency impairments, making it a promising solution for next-generation spectrum sensing.
 
-<img src="https://github.com/ThienHuynhThe/SpectrumSensing_5GLTE/blob/main/framework.png" height="286px" width="710px" >
+<img src="https://github.com/ThienHuynhThe/SpectrumSensing_5GLTE/blob/main/framework.png" height="334px" width="688px" >
 
 The Matlab code and dataset provided here are included in the under-review paper at IEEE Wireless Communications Letters
 
